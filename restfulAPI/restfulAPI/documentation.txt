@@ -1,0 +1,21 @@
+Agenda> To build a service that will accept HTTP GET requests at http://localhost:8080/greeting
+It would respond with JSON Representation of a greeting, as the following listing shows.
+{"id":1,"content":"Hello, World!"}
+
+Feature>
+Customization using http://localhost:8080/greeting?name=User
+The name parameter value overrides the default value of World and is reflected in the response as follows:
+{"id": 1, "content":"Hello, User!"}
+
+
+STEP 1: Initialized project through start.spring.io. Dependency choosed is Spring Web
+STEP 2: Thought about some service interaction
+STEP 3: GET Request for /greeting , return 200 OK Success status code -> Reponse with JSON with body that represents greeting
+{
+	"id":1,
+	"content": "Hello, World"
+}
+STEP 4: To do this create a resource representation class 
+	-> Create Greeting.java Record 
+STEP 5: Create a Controller to handle HTTP requests , additional details are in the comments itself
+STEP 6: RUN THE SPRINGBOOT main class and open the url http://localhost:8080/greeting?name=user or for default value use http://localhost:8080/greeting
