@@ -1,0 +1,3 @@
+AGENDA - ACCESS DATA WITH MY SQL
+STEP 1) RUN THE SCRIPT IN YOUR MYSQL , to understand the script you can see the comments with in
+STEP 2) src>main>application.properties to define the connection attributes 
